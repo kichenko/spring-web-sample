@@ -31,4 +31,5 @@ public class StudentShowController {
         model.addAttribute("student", service.findById(id));
         return "students";
     }
+
 }
